@@ -1,10 +1,10 @@
-# Sigma.js full-featured demo
+# DataTwitch
 
-This project aims to provide a full-features "real life" application using sigma.js. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [react-sigma-v2](https://github.com/sim51/react-sigma-v2) to interface sigma.js with React.
+This project aims to provide a real-time data vizualisation of twitch community
 
 ## Dataset
 
-The dataset has been kindly crafted by the [Sciences-Po médialab](https://medialab.sciencespo.fr/) and [OuestWare](https://www.ouestware.com/en/) teams using [Seealsology](https://densitydesign.github.io/strumentalia-seealsology/). It represents a network of Wikipedia pages, connected by ["See also"](https://en.wikipedia.org/wiki/See_also) links. It then was tagged by hand.
+The dataset is provided from the Twitch API
 
 ## Available Scripts
 
