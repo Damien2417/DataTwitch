@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "key": "ddaaam",
+      "label": "ddaaam",
+      "tag": "Viewer",
+      "URL": "https://www.twitch.tv/ddaaam",
+      "cluster": "0",
+      "x": 643.82275390625,
+      "y": -770.3126220703125,
+      "score": 300
+    },{
+      "key": "test",
+      "label": "test",
+      "tag": "Viewer",
+      "URL": "https://www.twitch.tv/ddaaam",
+      "cluster": "0",
+      "x": 300.82275390625,
+      "y": -770.3126220703125,
+      "score": 1000
+    },
+	{
+      "key": "antoinedaniel",
+      "label": "AntoineDaniel",
+      "tag": "Streamer",
+      "URL": "https://www.twitch.tv/antoinedaniel",
+      "cluster": "0",
+      "x": 789.8463745117188,
+      "y": -686.1704711914062,
+      "score": 10000
+    }
+  ],
+  "edges": [
+    ["ddaaam", "antoinedaniel"],
+    ["test", "antoinedaniel"]   
+  ],
+  "clusters": [
+    { "key": "0", "color": "#6c3e81", "clusterLabel": "Antoine Daniel" }
+  ],
+  "tags": [
+    { "key": "Streamer", "image": "tool.svg" },
+	{ "key": "Viewer", "image": "field.svg" }
+  ]
+}
