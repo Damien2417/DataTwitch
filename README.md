@@ -2,6 +2,8 @@
 
 This project aims to provide a real-time data vizualisation of twitch community
 
+https://twitchmap.fr/
+
 ## Dataset
 
 The dataset is provided from the Twitch API
