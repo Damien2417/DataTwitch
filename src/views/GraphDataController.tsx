@@ -19,6 +19,8 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
 
     dataset.nodes.forEach((node) =>{
 		try{
+			node.x = Math.random()*100;
+			node.y = Math.random()*100;
 		  graph.addNode(node.key, {
 			...node,
 			...omit(clusters[node.cluster], "key"),
@@ -28,7 +30,7 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
 		catch(error){}
 	}
     );
-    dataset.edges.forEach(([source, target, color]) => graph.addEdge(source, target, { size: 0.01, color: color }));
+    dataset.edges.forEach(([source, target, color]) => graph.addEdge(source, target, { size: 0.1, color: color }));
 
     // Use degrees as node sizes:
     const scores = graph.nodes().map((node) => graph.getNodeAttribute(node, "score"));

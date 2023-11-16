@@ -201,6 +201,8 @@ async function writeDataToFile() {
 					"tag": "Viewer",
 					"URL": "",
 					"cluster": value.cluster_id,
+					"x":  Math.random()*100,
+					"y":  Math.random()*100,
 					"score":  1
 				});
 				already.push(value.viewer);
