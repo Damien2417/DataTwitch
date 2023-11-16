@@ -4,6 +4,10 @@ This project aims to provide a real-time data vizualisation of twitch community
 
 https://twitchmap.fr/
 
+## ⚠️ Important Notice ⚠️
+
+As of February 28, 2023, this project is no longer operational or maintained due to changes in Twitch's API guidelines. The information and functionalities provided by this project may no longer be accurate or functional.
+
 ## Dataset
 
 The dataset is provided from the Twitch API
