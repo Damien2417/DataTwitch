@@ -1,8 +1,6 @@
 # DataTwitch
 
-This project aims to provide a real-time data visualization of the Twitch community.
-
-https://twitchmap.fr/
+This project aims to provide real-time data visualization of the Twitch community, exploring the dynamics and relationships within this digital ecosystem. Using data provided by the Twitch API, DataTwitch allows visualizing the clusters and nodes of different Twitch communities, showing how they are interconnected and revealing trends and behavioral patterns within this live streaming platform.
 
 ## ⚠️ Important Notice ⚠️
 
